@@ -9,8 +9,7 @@ const Home: NextPage = () => {
     <Head>
       <title>Abhi's Portfolio</title>
     </Head>
-
-    {/* Header */}
+    
     <Header/>
 
     {/* Hero */}
