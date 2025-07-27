@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import WorkEx from '@/components/WorkEx';
 
 const Home: NextPage = () => {
   return (
@@ -14,17 +15,18 @@ const Home: NextPage = () => {
 
     <Header/>
 
-    {/* Hero */}
     <section id="hero" className="snap-start">
       <Hero />
     </section>  
 
-    {/* About */}
     <section id="about" className="snap-center">
       <About/>
     </section>
 
     {/* Experience */}
+    <section id="experience" className="snap-center">
+      <WorkEx />
+    </section>
 
     {/* Skills */}
 
