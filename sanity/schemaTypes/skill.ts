@@ -1,7 +1,7 @@
 import {DocumentTextIcon} from '@sanity/icons'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 
-export const pageInfo = defineType({
+export const skill = defineType({
     name:"skill", 
     title: "Skill", 
     type: "document",
