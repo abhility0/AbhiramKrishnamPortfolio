@@ -29,10 +29,13 @@ export const pageInfo = defineType({
       name: "isCurrentlyWorkingHere", title:"IsCurrent LyWorkingHere",type: "boolean",
     }),
     defineField({
-      name: "isCurrentlyWorkingHere", title:"IsCurrent LyWorkingHere",type: "boolean",
+      name: "technologies", title: "Technologies", type: "array",
+      of: [
+        defineArrayMember({type:"reference", to: { type: "skill" }})]
     }),
     defineField({
-      name: "isCurrentlyWorkingHere", title:"IsCurrent LyWorkingHere",type: "boolean",
+      name:"points", title: "Points" ,type:"array",
+      of: [defineArrayMember({ type:"string"})]
     }),
   ]
 })
