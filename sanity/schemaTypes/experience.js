@@ -11,7 +11,7 @@ export const experience = defineType({
       name:"jobTitle", title: "JobTitle", type: "string",
     }),
     defineField({
-      name:"company Image",title: "Company Image", type: "image",
+      name:"companyImage",title: "Company Image", type: "image",
       options: {
         hotspot:true,
       }

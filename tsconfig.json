@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sanity/schemaTypes/social.js", "sanity/schemaTypes/skill.js", "sanity/schemaTypes/project.js", "sanity/schemaTypes/pageInfo.js"],
   "exclude": ["node_modules"]
 }
