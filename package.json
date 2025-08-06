@@ -16,7 +16,6 @@
     "framer-motion": "^12.23.3",
     "motion": "^12.23.3",
     "next": "15.3.3",
-    "next-sanity": "^10.0.6",
     "postcss": "^8.5.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
